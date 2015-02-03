@@ -1,1 +1,22 @@
-elements.css
+main {
+	width:800px;
+	height: 100vh;
+
+}
+
+
+circle {
+	position: absolute;
+	width:400px;
+	height: 400px;
+
+	background-color: blue;
+	
+	margin:auto;
+}
+
+.container {
+	margin-left:200px
+
+
+	}

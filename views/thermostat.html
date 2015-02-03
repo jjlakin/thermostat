@@ -3,18 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Thermostat</title>
-	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
-	<link rel="stylesheet" href="/css/general_styling.css">
-	
-  <script type="text/javascript" src="src/ThermostatSpec.js"></script>
+	<link rel="stylesheet" type="text/css" href="../public/css/normalize.css">
+	<link rel="stylesheet" href="../public/css/elements.css">
+  
+  <script type="text/javascript" src="../src/Thermostat.js"></script>
+	<script type="text/javascript" src="../public/js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="../public/js/jquery-script.js"></script>
+ 
 
 </head>
 
 <body>
 	<main>
-		
-		<h1 class="temperature">??</h1>
-
+		<circle class="container">
+			<arrow>up</arrow>
+				<h1 class="temperature">??</h1> 
+			<arrow>down</arrow>
+		</circle>
 	</main>
 
 </body>
